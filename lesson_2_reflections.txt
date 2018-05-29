@@ -3,3 +3,6 @@ A .git file is added to the directory.  This helps keep track of commits and whi
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area files cannot be accessed.  They are saved temporarily.  Files can be added and removed from it. It allows user to remove files if they aren't sure.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff -staging and the command displays the differences in code so the last commited verison and the staged version.  That way you can make sure you have one commit per logical changing in the staging area.
