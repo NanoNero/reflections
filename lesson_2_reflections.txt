@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is added to the directory.  This helps keep track of commits and which files have been changed.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area files cannot be accessed.  They are saved temporarily.  Files can be added and removed from it. It allows user to remove files if they aren't sure.
