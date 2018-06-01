@@ -13,3 +13,13 @@ If I want to experiment with a new feature or logic, or add a new language.  Bra
 
 How do the diagrams help you visualize the branch structure?
 They help understand the sequence of commits, the point up to which the code is the same and unreachable branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The code that is present in both branches is combined with the code that was added in both branches.  The previous fragments of code that were deleted from either branch are removed too. We represent it like that because the merged code has 2 parents since the code is a combined from lines written in both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's merging does not merge code when there are conflicts, the users have to do it themselves.  However, git does show the users where the conflicts occurred, that way it's easier to debug.
+
+
+
+
