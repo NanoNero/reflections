@@ -6,3 +6,7 @@ When there are many collaborators on a project, working at the same time.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Changes could be made by other collaborators.  Changes could be many and I would want the final commits of other users and not the intermediate ones.  I wouldn't want Git to waste time and efforts on intermediate commits.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is to clone a repo from one Github account onto your own account.  Clone is to make a copy of an existing repo.  You can clone a repo onto your local machine using git clone or you can clone it into your account using fork. Branch is where you make a copy of the code to test a new feature or add a new language or experiment with debugging.  In branching you can make changes to the code in the repo, in fork you are not allowed to make changes in the original repo.
