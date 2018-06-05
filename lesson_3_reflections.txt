@@ -10,3 +10,19 @@ Changes could be made by other collaborators.  Changes could be many and I would
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Fork is to clone a repo from one Github account onto your own account.  Clone is to make a copy of an existing repo.  You can clone a repo onto your local machine using git clone or you can clone it into your account using fork. Branch is where you make a copy of the code to test a new feature or add a new language or experiment with debugging.  In branching you can make changes to the code in the repo, in fork you are not allowed to make changes in the original repo.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Easier to know what's been committed. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Hard to write code if everyone is at different locations.  Hard to debug someone else's code and merge code conflicts.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I'm not sure if the changes are gonna work or break the code.  So I can merge branches once I make sure the new code works.  
+
+
+
+
